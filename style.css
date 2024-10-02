@@ -1,0 +1,292 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.banner {
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url("https://golohtml.uxper.co/images/bg-hero.jpg") no-repeat
+    center center;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+.banner-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.index-banner {
+  min-height: 77px;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.6)
+  );
+}
+
+.index-banner .navbar-nav .nav-item {
+  font-weight: 700;
+  margin: 0px 16px;
+}
+
+.index-banner .navbar-nav .nav-item .nav-link {
+  color: #fff !important;
+  text-shadow: 0.5px 0.5px #000;
+}
+
+.banner h1 {
+  font-size: 3rem;
+}
+.banner p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.btn-custom {
+  background-color: #f08a24;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+}
+.btn-custom:hover {
+  background-color: #d8741f;
+}
+
+.trust-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+  text-align: center;
+}
+.trust-section h2 {
+  color: #0d6efd;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.trust-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+.stats-box {
+  text-align: left;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.stats-box h3 {
+  font-size: 2rem;
+  color: #333;
+}
+.stats-box span {
+  font-size: 1.25rem;
+  color: #555;
+}
+.help-section {
+  background-color: #2b2b2b;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+.help-section h2 {
+  margin-bottom: 30px;
+}
+.help-cards .card {
+  background-color: transparent;
+  border: 2px solid #0d6efd;
+  border-radius: 10px;
+}
+.help-cards .card:hover {
+  background-color: #0d6efd;
+}
+.help-cards .card-body {
+  color: white;
+}
+.results-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+.results-section h2 {
+  margin-bottom: 30px;
+}
+.result-images img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.consultation-btn {
+  background-color: #0d6efd;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.25rem;
+  border-radius: 30px;
+  margin-top: 30px;
+  display: inline-block;
+}
+.clients-section {
+  padding: 40px 0;
+  text-align: center;
+  background-color: white;
+}
+.clients-section img {
+  max-width: 150px;
+  margin: 10px 30px;
+}
+
+.header {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("https://golohtml.uxper.co/images/bg-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.header form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.header input {
+  margin-bottom: 10px;
+}
+
+.header .btn-submit {
+  background-color: #0d6efd;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.header .cta-btn {
+  background-color: #0d6efd;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.25rem;
+  border-radius: 30px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.why-me-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.why-me-section h2 {
+  color: #0d6efd;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.icon-box {
+  text-align: center;
+  padding: 20px;
+}
+
+.icon-box i {
+  font-size: 2rem;
+  color: #0d6efd;
+  margin-bottom: 15px;
+}
+
+.icon-box h4 {
+  margin-top: 10px;
+}
+
+.testimonials-section {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+.testimonials-section h2 {
+  color: #0d6efd;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.testimonial-box {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.process-section {
+  background-color: #e9f7fd;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.faq-section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.faq-section h2 {
+  color: #0d6efd;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.faq .accordion-button {
+  color: #0d6efd;
+}
+
+.contact-section {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url("https://golohtml.uxper.co/images/bg-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+  margin-bottom: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.contact-form .btn-contact {
+  background-color: #0d6efd;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.icon-box i {
+  color: #0d6efd;
+}
