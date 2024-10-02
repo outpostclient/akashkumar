@@ -2,6 +2,22 @@ body {
   font-family: "Arial", sans-serif;
 }
 
+
+@media screen and (min-width: 576px) {
+  .image-size {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .image-size {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+
 .banner {
   background: linear-gradient(
     to top,
