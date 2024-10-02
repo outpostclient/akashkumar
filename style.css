@@ -8,6 +8,10 @@ body {
     width: 500px;
     height: 500px;
   }
+
+  .banner h1 {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
